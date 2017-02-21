@@ -5,23 +5,34 @@
     {
       "id": "start",
       "coordinates": {
-        "x": 0,
-        "y": 0,
+        "x": 780,
+        "y": 160,
         "z": 0
       },
       "connections": [
-        "door"
+        "path1"
+      ]
+    },
+    {
+      "id": "path1",
+      "coordinates": {
+        "x": 580,
+        "y": 350,
+        "z": 5
+      },
+      "connections": [
+        "start", "door"
       ]
     },
     {
       "id": "door",
       "coordinates": {
-        "x": 10,
-        "y": 0,
-        "z": 0
+        "x": 220,
+        "y": 420,
+        "z": 10
       },
       "connections": [
-        "start"
+        "path1"
       ]
     }
   ]

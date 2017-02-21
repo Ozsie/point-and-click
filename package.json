@@ -1,0 +1,31 @@
+{
+  "name": "point-and-click",
+  "version": "1.0.0",
+  "description": "point-and-click",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozsie/point-and-click.git"
+  },
+  "keywords": [
+    "point",
+    "and",
+    "click"
+  ],
+  "author": "Oscar Djupfeldt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozsie/point-and-click/issues"
+  },
+  "homepage": "https://github.com/ozsie/point-and-click#readme",
+  "dependencies": {
+    "connect": "^3.5.0",
+    "express": "^4.14.0",
+    "body-parser": "~1.15",
+    "walk": "^2.3.9"
+  }
+}
