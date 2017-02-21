@@ -1,0 +1,28 @@
+{
+  "id": "intro",
+  "background": "assets/intro/background.jpg",
+  "nodes": [
+    {
+      "id": "start",
+      "coordinates": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "connections": [
+        "door"
+      ]
+    },
+    {
+      "id": "door",
+      "coordinates": {
+        "x": 10,
+        "y": 0,
+        "z": 0
+      },
+      "connections": [
+        "start"
+      ]
+    }
+  ]
+}
